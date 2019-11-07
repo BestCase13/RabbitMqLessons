@@ -22,7 +22,7 @@ namespace Receiver
 					Console.WriteLine($" [x] Received {message}");
 				};
 
-				channel.BasicConsume(queue: "lalaland", autoAck: true, consumer: consumer);
+				channel.BasicConsume(queue: "task_queue", autoAck: true, consumer: consumer);
 				Console.WriteLine("Press [enter] to exit.");
 				Console.ReadLine();
 			}
