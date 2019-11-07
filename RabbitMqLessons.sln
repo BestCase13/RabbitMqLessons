@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTask", "NewTask\NewTask.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker", "Worker\Worker.csproj", "{87F4D7CA-BC21-4331-A2E1-A2245722B017}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogger", "EmitLogger\EmitLogger.csproj", "{C6DAFEC5-D1A3-4C7F-BF65-D2E54E30F821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogger", "EmitLogger\EmitLogger.csproj", "{C6DAFEC5-D1A3-4C7F-BF65-D2E54E30F821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogger", "ReceiveLogger\ReceiveLogger.csproj", "{E5E9BBF7-D7D7-43F4-AB13-0AF1267AC136}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogger", "ReceiveLogger\ReceiveLogger.csproj", "{E5E9BBF7-D7D7-43F4-AB13-0AF1267AC136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogDirect", "EmitLogDirect\EmitLogDirect.csproj", "{67DC0E68-6D45-4E2A-9BAF-3689FAFA003A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogDirect", "ReceiveLogDirect\ReceiveLogDirect.csproj", "{AD1899DB-C6FD-4B8C-A104-B9302E659003}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{E5E9BBF7-D7D7-43F4-AB13-0AF1267AC136}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5E9BBF7-D7D7-43F4-AB13-0AF1267AC136}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5E9BBF7-D7D7-43F4-AB13-0AF1267AC136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67DC0E68-6D45-4E2A-9BAF-3689FAFA003A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67DC0E68-6D45-4E2A-9BAF-3689FAFA003A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67DC0E68-6D45-4E2A-9BAF-3689FAFA003A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67DC0E68-6D45-4E2A-9BAF-3689FAFA003A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1899DB-C6FD-4B8C-A104-B9302E659003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1899DB-C6FD-4B8C-A104-B9302E659003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1899DB-C6FD-4B8C-A104-B9302E659003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1899DB-C6FD-4B8C-A104-B9302E659003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
